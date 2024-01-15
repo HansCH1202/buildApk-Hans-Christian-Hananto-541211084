@@ -12,7 +12,7 @@ const HomeScreen = ({ navigation }) => {
   const handleSearchPress = () => {};
 
   const handleCardPress = () => {
-    console.log("Card Pressed!");
+    console.log("Card Presses");
     navigation.navigate("Detail");
   };
 
